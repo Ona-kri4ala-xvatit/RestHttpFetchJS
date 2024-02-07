@@ -26,17 +26,17 @@ export function createUserPostBlock(post) {
 
     const postId = document.createElement('div');
     postId.classList.add('user-post-item');
-    postId.textContent = 'User Id: ' + post.userId + ' | ' + 'ID: ' + post.id;
+    postId.textContent = 'User Id: ' + post.userId + ' | ' + 'Post Id: ' + post.id;
     userPost.append(postId);
 
     const Title = document.createElement('div');
     Title.classList.add('user-post-item');
-    Title.textContent = 'Title:' + post.title;
+    Title.textContent = 'Title: ' + post.title;
     userPost.append(Title);
 
     const Body = document.createElement('div');
     Body.classList.add('user-post-item');
-    Body.textContent = 'Body:' + post.body;
+    Body.textContent = 'Body: ' + post.body;
     userPost.append(Body);
 
     document.body.append(userPost);

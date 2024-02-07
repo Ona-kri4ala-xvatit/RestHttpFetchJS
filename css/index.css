@@ -1,6 +1,6 @@
 .user-items {
     width: 410px;
-    color: #186cb8; /* #598D66; */
+    color:  #598D66; 
     border: 1px solid;
     font-size: 18px;
     text-align: center;
@@ -14,4 +14,19 @@
 .user-items:last-child {
     margin-bottom: 0;
     margin-right: 0;
+}
+
+.user-post-items {
+    width: 1110px;
+    color: #186cb8;
+    font-size: 18px;
+    border: 1px solid;
+    /* margin: 0 auto; */
+    padding: 5px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.user-post-item:first-child {
+    color: brown;
 }
